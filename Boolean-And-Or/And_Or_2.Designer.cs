@@ -1,7 +1,7 @@
 ﻿
 namespace Boolean_And_Or
 {
-    partial class Form1
+    partial class And_Or_2
     {
         /// <summary>
         /// Required designer variable.
@@ -29,17 +29,19 @@ namespace Boolean_And_Or
         /// </summary>
         private void InitializeComponent()
         {
-            this.picoff1 = new System.Windows.Forms.PictureBox();
             this.chkBox1 = new System.Windows.Forms.CheckBox();
             this.chkBox2 = new System.Windows.Forms.CheckBox();
-            this.picOn1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.picResult = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.picOn2 = new System.Windows.Forms.PictureBox();
             this.picOff2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.picOn1 = new System.Windows.Forms.PictureBox();
+            this.picoff1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -49,13 +51,14 @@ namespace Boolean_And_Or
             this.Or_On = new System.Windows.Forms.PictureBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picoff1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picOn1)).BeginInit();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picResult)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picOn2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picOff2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOn1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picoff1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -65,23 +68,12 @@ namespace Boolean_And_Or
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
-            // picoff1
-            // 
-            this.picoff1.Image = global::Boolean_And_Or.Properties.Resources.off;
-            this.picoff1.Location = new System.Drawing.Point(58, 95);
-            this.picoff1.Name = "picoff1";
-            this.picoff1.Size = new System.Drawing.Size(110, 166);
-            this.picoff1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picoff1.TabIndex = 4;
-            this.picoff1.TabStop = false;
-            this.picoff1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // chkBox1
             // 
             this.chkBox1.AutoSize = true;
             this.chkBox1.Location = new System.Drawing.Point(81, 281);
             this.chkBox1.Name = "chkBox1";
-            this.chkBox1.Size = new System.Drawing.Size(52, 40);
+            this.chkBox1.Size = new System.Drawing.Size(43, 32);
             this.chkBox1.TabIndex = 5;
             this.chkBox1.Text = "A";
             this.chkBox1.UseVisualStyleBackColor = true;
@@ -92,26 +84,16 @@ namespace Boolean_And_Or
             this.chkBox2.AutoSize = true;
             this.chkBox2.Location = new System.Drawing.Point(326, 281);
             this.chkBox2.Name = "chkBox2";
-            this.chkBox2.Size = new System.Drawing.Size(51, 40);
+            this.chkBox2.Size = new System.Drawing.Size(42, 32);
             this.chkBox2.TabIndex = 6;
             this.chkBox2.Text = "B";
             this.chkBox2.UseVisualStyleBackColor = true;
             this.chkBox2.CheckedChanged += new System.EventHandler(this.chkBox2_CheckedChanged);
             // 
-            // picOn1
-            // 
-            this.picOn1.Image = global::Boolean_And_Or.Properties.Resources.on;
-            this.picOn1.Location = new System.Drawing.Point(24, 95);
-            this.picOn1.Name = "picOn1";
-            this.picOn1.Size = new System.Drawing.Size(185, 166);
-            this.picOn1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picOn1.TabIndex = 7;
-            this.picOn1.TabStop = false;
-            this.picOn1.Visible = false;
-            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.picResult);
             this.groupBox1.Controls.Add(this.pictureBox2);
@@ -128,6 +110,34 @@ namespace Boolean_And_Or
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "AND";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(252, 355);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(192, 59);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "SHOW TRUTH TABLE";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(17, 355);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(192, 59);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "OUTPUT";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // picResult
             // 
@@ -173,23 +183,34 @@ namespace Boolean_And_Or
             this.picOff2.TabIndex = 9;
             this.picOff2.TabStop = false;
             // 
-            // button1
+            // picOn1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(146, 364);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(192, 59);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "OUTPUT";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.picOn1.Image = global::Boolean_And_Or.Properties.Resources.on;
+            this.picOn1.Location = new System.Drawing.Point(24, 95);
+            this.picOn1.Name = "picOn1";
+            this.picOn1.Size = new System.Drawing.Size(185, 166);
+            this.picOn1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picOn1.TabIndex = 7;
+            this.picOn1.TabStop = false;
+            this.picOn1.Visible = false;
+            this.picOn1.Click += new System.EventHandler(this.picOn1_Click);
+            // 
+            // picoff1
+            // 
+            this.picoff1.Image = global::Boolean_And_Or.Properties.Resources.off;
+            this.picoff1.Location = new System.Drawing.Point(58, 95);
+            this.picoff1.Name = "picoff1";
+            this.picoff1.Size = new System.Drawing.Size(110, 166);
+            this.picoff1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picoff1.TabIndex = 4;
+            this.picoff1.TabStop = false;
+            this.picoff1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Controls.Add(this.pictureBox3);
@@ -206,13 +227,27 @@ namespace Boolean_And_Or
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "OR";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(268, 355);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(192, 59);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "SHOW TRUTH TABLE";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(148, 364);
+            this.button2.Location = new System.Drawing.Point(26, 355);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(192, 59);
             this.button2.TabIndex = 13;
@@ -267,7 +302,7 @@ namespace Boolean_And_Or
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(326, 281);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(51, 40);
+            this.checkBox1.Size = new System.Drawing.Size(42, 32);
             this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "B";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -289,7 +324,7 @@ namespace Boolean_And_Or
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(81, 281);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(52, 40);
+            this.checkBox2.Size = new System.Drawing.Size(43, 32);
             this.checkBox2.TabIndex = 5;
             this.checkBox2.Text = "A";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -305,31 +340,45 @@ namespace Boolean_And_Or
             this.pictureBox7.TabIndex = 4;
             this.pictureBox7.TabStop = false;
             // 
-            // Form1
+            // button5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 36F);
+            this.button5.BackColor = System.Drawing.Color.Salmon;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Poppins SemiBold", 18.25F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button5.Location = new System.Drawing.Point(326, 692);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(165, 51);
+            this.button5.TabIndex = 15;
+            this.button5.Text = "Exit";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // And_Or_2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1057, 767);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
-            this.Name = "Form1";
+            this.Name = "And_Or_2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BOOLEAN LOGIC AND - OR";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picoff1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picOn1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picResult)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picOn2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picOff2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOn1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picoff1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -363,6 +412,9 @@ namespace Boolean_And_Or
         private System.Windows.Forms.PictureBox Or_On;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 

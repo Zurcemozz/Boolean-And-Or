@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Boolean_And_Or
 {
-    public partial class Form1 : Form
+    public partial class And_Or_2 : Form
     {
-        public Form1()
+        public And_Or_2()
         {
             InitializeComponent();
         }
@@ -122,6 +122,33 @@ namespace Boolean_And_Or
             {
                 Or_on1.Visible = false;
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            And_TB_2 form3 = new And_TB_2();
+            form3.Show();
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+          
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Or_TB_2 form4 = new Or_TB_2();
+            form4.Show();
+        }
+
+        private void picOn1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
